@@ -1,0 +1,47 @@
+body {
+    background-color: #a7a8cd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    width: 100;
+    border-radius: 8px 8px 0 0;
+}
+.card {
+    width: 20rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 8px;
+    position: relative;
+}
+.main_box {
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
+
+span {
+    color: #555;
+}
+
+.flying_text {
+    position: absolute;
+    white-space: nowrap;
+    tap: 2.5%;
+    
+}
